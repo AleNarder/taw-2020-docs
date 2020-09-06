@@ -6,8 +6,8 @@ const backendDocs = require('./backend/api.json')
 const port = process.env.PORT || 8282
 
 app.use(cors())
-app.use('/api-docs/backend', swaggerUI.serve, swaggerUI.setup(backendDocs));
-app.use('/api-docs/frontend', express.static('frontend'))
+app.use('/docs/backend', swaggerUI.serve, swaggerUI.setup(backendDocs));
+app.use('/docs/frontend', express.static('frontend'))
 
 app.listen(port, () => {
   console.log(`server listening on http://localhost:${port}`)
