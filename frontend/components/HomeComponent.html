@@ -1,0 +1,1471 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>frontend documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">frontend documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>HomeComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/views/home/home.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Componente che visualizza tutte le aste in real time
+Permette all&#39;utente filtrare quelle presenti
+sulla base di una serie di parametri e di aprirne
+una in modalità lettura</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-home</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./home.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./home.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#auctions">auctions</a>
+                            </li>
+                            <li>
+                                <a href="#comuni">comuni</a>
+                            </li>
+                            <li>
+                                <a href="#filter">filter</a>
+                            </li>
+                            <li>
+                                <a href="#filterOptions">filterOptions</a>
+                            </li>
+                            <li>
+                                <a href="#location">location</a>
+                            </li>
+                            <li>
+                                <a href="#panelOpenState">panelOpenState</a>
+                            </li>
+                            <li>
+                                <a href="#priceOptions">priceOptions</a>
+                            </li>
+                            <li>
+                                <a href="#province">province</a>
+                            </li>
+                            <li>
+                                <a href="#ready">ready</a>
+                            </li>
+                            <li>
+                                <a href="#regioni">regioni</a>
+                            </li>
+                            <li>
+                                <a href="#utentiInserzioni">utentiInserzioni</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#getAuctions">getAuctions</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#noFilter">noFilter</a>
+                            </li>
+                            <li>
+                                <a href="#searchCriteria">searchCriteria</a>
+                            </li>
+                            <li>
+                                <a href="#updateClock">updateClock</a>
+                            </li>
+                            <li>
+                                <a href="#updateLocation">updateLocation</a>
+                            </li>
+                            <li>
+                                <a href="#viewAuction">viewAuction</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>, auctionService: <a href="../injectables/AuctionService.html">AuctionService</a>, socketService: <a href="../injectables/SocketioService.html">SocketioService</a>, locationsService: <a href="../injectables/LocationsService.html">LocationsService</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="59" class="link-to-prism">src/app/components/views/home/home.component.ts:59</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>auctionService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuctionService.html" target="_self" >AuctionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>socketService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SocketioService.html" target="_self" >SocketioService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>locationsService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/LocationsService.html" target="_self" >LocationsService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAuctions"></a>
+                    <span class="name">
+                        <b>
+                            getAuctions
+                        </b>
+                        <a href="#getAuctions"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAuctions()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="82"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:82</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="69"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:69</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="noFilter"></a>
+                    <span class="name">
+                        <b>
+                            noFilter
+                        </b>
+                        <a href="#noFilter"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>noFilter()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="130"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:130</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="searchCriteria"></a>
+                    <span class="name">
+                        <b>
+                            searchCriteria
+                        </b>
+                        <a href="#searchCriteria"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>searchCriteria()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="120"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:120</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateClock"></a>
+                    <span class="name">
+                        <b>
+                            updateClock
+                        </b>
+                        <a href="#updateClock"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateClock()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="114"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:114</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateLocation"></a>
+                    <span class="name">
+                        <b>
+                            updateLocation
+                        </b>
+                        <a href="#updateLocation"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateLocation(prop: "provincia" | "regione", event: MatSelectChange)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="136"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:136</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>prop</td>
+                                    <td>
+                                            <code>&quot;provincia&quot; | &quot;regione&quot;</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>event</td>
+                                    <td>
+                                            <code>MatSelectChange</code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="viewAuction"></a>
+                    <span class="name">
+                        <b>
+                            viewAuction
+                        </b>
+                        <a href="#viewAuction"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>viewAuction(auction: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>, user: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank">string</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="105"
+                            class="link-to-prism">src/app/components/views/home/home.component.ts:105</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>auction</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                                <tr>
+                                    <td>user</td>
+                                    <td>
+                                                <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="auctions"></a>
+                        <span class="name">
+                            <b>
+                            auctions</b>
+                            <a href="#auctions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/views/home/home.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="comuni"></a>
+                        <span class="name">
+                            <b>
+                            comuni</b>
+                            <a href="#comuni"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/views/home/home.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="filter"></a>
+                        <span class="name">
+                            <b>
+                            filter</b>
+                            <a href="#filter"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/string" target="_blank" >string</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>&#x27;&#x27;</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/views/home/home.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="filterOptions"></a>
+                        <span class="name">
+                            <b>
+                            filterOptions</b>
+                            <a href="#filterOptions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[
+    {
+      title: &#x27;titolo&#x27;,
+      option: &#x27;title&#x27;,
+      selected: true
+    },
+    {
+      title: &#x27;corso&#x27;,
+      option: &#x27;course&#x27;,
+      selected: false
+    },
+    {
+      title: &#x27;autore&#x27;,
+      option: &#x27;author&#x27;,
+      selected: false
+    },
+    {
+      title: &#x27;università&#x27;,
+      option: &#x27;university&#x27;,
+      selected: false
+    },
+  ]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/views/home/home.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="location"></a>
+                        <span class="name">
+                            <b>
+                            location</b>
+                            <a href="#location"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Location.html" target="_self" >Location</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/components/views/home/home.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="panelOpenState"></a>
+                        <span class="name">
+                            <b>
+                            panelOpenState</b>
+                            <a href="#panelOpenState"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/views/home/home.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="priceOptions"></a>
+                        <span class="name">
+                            <b>
+                            priceOptions</b>
+                            <a href="#priceOptions"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/object" target="_blank" >object</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{
+    min: null,
+    max: null
+  }</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/views/home/home.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="province"></a>
+                        <span class="name">
+                            <b>
+                            province</b>
+                            <a href="#province"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/views/home/home.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ready"></a>
+                        <span class="name">
+                            <b>
+                            ready</b>
+                            <a href="#ready"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/views/home/home.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="regioni"></a>
+                        <span class="name">
+                            <b>
+                            regioni</b>
+                            <a href="#regioni"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>string[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="24" class="link-to-prism">src/app/components/views/home/home.component.ts:24</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="utentiInserzioni"></a>
+                        <span class="name">
+                            <b>
+                            utentiInserzioni</b>
+                            <a href="#utentiInserzioni"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>Auctions[]</code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="23" class="link-to-prism">src/app/components/views/home/home.component.ts:23</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router } from &#x27;@angular/router&#x27;;
+import { AuctionService } from &#x27;src/app/services/http/auction.service&#x27;;
+import { AuctionResponse, Auctions } from &#x27;src/app/services/models/Auction&#x27;;
+import { SocketioService } from &#x27;src/app/services/socket/socketio.service&#x27;;
+import { LocationsService } from &#x27;src/app/services/geo/locations.service&#x27;;
+import { MatSelectChange } from &#x27;@angular/material/select&#x27;;
+import { Location } from &#x27;src/app/services/models/Location&#x27;;
+
+/**
+ * Componente che visualizza tutte le aste in real time
+ * Permette all&#x27;utente filtrare quelle presenti
+ * sulla base di una serie di parametri e di aprirne
+ * una in modalità lettura
+ */
+@Component({
+  selector: &#x27;app-home&#x27;,
+  templateUrl: &#x27;./home.component.html&#x27;,
+  styleUrls: [&#x27;./home.component.css&#x27;]
+})
+export class HomeComponent implements OnInit {
+
+  utentiInserzioni: Auctions[]
+  regioni: string[]
+  location: Location
+  province: string[]
+  comuni: string[]
+  auctions &#x3D; []
+  panelOpenState &#x3D; false
+  ready &#x3D; false
+  filter &#x3D; &#x27;&#x27;
+
+  priceOptions &#x3D; {
+    min: null,
+    max: null
+  }
+
+  filterOptions &#x3D; [
+    {
+      title: &#x27;titolo&#x27;,
+      option: &#x27;title&#x27;,
+      selected: true
+    },
+    {
+      title: &#x27;corso&#x27;,
+      option: &#x27;course&#x27;,
+      selected: false
+    },
+    {
+      title: &#x27;autore&#x27;,
+      option: &#x27;author&#x27;,
+      selected: false
+    },
+    {
+      title: &#x27;università&#x27;,
+      option: &#x27;university&#x27;,
+      selected: false
+    },
+  ]
+
+  constructor(
+    private router: Router,
+    private auctionService: AuctionService,
+    private socketService: SocketioService,
+    private locationsService: LocationsService
+    ) {
+  }
+
+  ngOnInit(): void {
+    this.location &#x3D; {} as Location
+    this.regioni &#x3D; [&#x27;&#x27;]
+    this.regioni.push(...this.locationsService.regioni())
+    this.province &#x3D; [&#x27;&#x27;]
+    this.comuni &#x3D; [&#x27;&#x27;]
+    this.getAuctions()
+    this.socketService.onNewAuction(this.getAuctions.bind(this))
+    this.location.Regione &#x3D; this.regioni[0]
+    this.location.Comune &#x3D; this.comuni[0]
+    this.location.Provincia &#x3D; this.province[0]
+  }
+
+  getAuctions () {
+    this.auctions &#x3D; []
+    this.auctionService.getAll(true).subscribe((userAuctions: AuctionResponse) &#x3D;&gt; {
+      this.utentiInserzioni &#x3D; userAuctions.payload
+      this.ready &#x3D; true
+      for (let utente of this.utentiInserzioni) {
+        for (let auction of utente.auctions) {
+          this.auctions.push({
+            ...auction,
+            user: utente._id,
+            location: utente.location
+          })
+        }
+      }
+      this.updateClock()
+      setInterval(() &#x3D;&gt; {
+        this.updateClock()
+      }, 1000)
+    }, (err) &#x3D;&gt; {
+      console.log(err)
+    })
+  }
+
+  viewAuction(auction: string, user: string) {
+    this.router.navigate([&#x27;auction&#x27;], {
+      queryParams: {
+        user,
+        auction
+      }
+    })
+  }
+
+  updateClock () {
+    this.auctions.forEach((auction) &#x3D;&gt; {
+      auction.clock &#x3D; auction.expires - Date.now()
+    })
+  }
+
+  searchCriteria (): any {
+    return {
+      query: this.filter,
+      params: this.filterOptions.filter(filter &#x3D;&gt; filter.selected).map(filter &#x3D;&gt; filter.option),
+      min: this.priceOptions.min,
+      max: this.priceOptions.max,
+      location: this.location
+    }
+  }
+
+  noFilter (): boolean {
+    return !this.filterOptions
+      .map((a) &#x3D;&gt; a.selected)
+      .reduce((a, c) &#x3D;&gt; a || c)
+  }
+
+  updateLocation (prop: &#x27;provincia&#x27; | &#x27;regione&#x27;, event: MatSelectChange) {
+      if (prop &#x3D;&#x3D;&#x3D; &#x27;provincia&#x27;) {
+        if (event.value) {
+          this.comuni &#x3D; this.locationsService.comuni(event.value)
+          this.comuni.push(&#x27;&#x27;)
+        } else {
+          this.comuni &#x3D; [&#x27;&#x27;]
+        }
+      } else {
+        if (event.value) {
+          this.province &#x3D; this.locationsService.province(event.value)
+          this.province.push(&#x27;&#x27;)
+        } else {
+          this.province &#x3D; [&#x27;&#x27;]
+          this.comuni &#x3D; [&#x27;&#x27;]
+          Object.keys(this.location).forEach(key &#x3D;&gt; this.location[key] &#x3D; &#x27;&#x27;)
+        }
+      }
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container&quot;&gt;
+  &lt;div class&#x3D;&quot;nested-content&quot;&gt;
+    &lt;div&gt;
+      &lt;h1 class&#x3D;&quot;section-title&quot;&gt;Libri in vendita&lt;/h1&gt;
+      &lt;h2 class&#x3D;&quot;section-subtitle&quot;&gt;Tutte le aste in corso&lt;/h2&gt;
+        &lt;mat-form-field appearance&#x3D;&quot;outline&quot; id&#x3D;&quot;search&quot;&gt;
+          &lt;mat-label&gt;Ricerca&lt;/mat-label&gt;
+          &lt;input [disabled]&#x3D;&quot;noFilter()&quot; matInput placeholder&#x3D;&quot;Algoritmi e strutture dati&quot; [(ngModel)]&#x3D;&quot;filter&quot;&gt;
+        &lt;/mat-form-field&gt;
+        &lt;mat-expansion-panel hideToggle&gt;
+          &lt;mat-expansion-panel-header&gt;
+            &lt;mat-panel-title&gt;
+              Filtri di ricerca
+            &lt;/mat-panel-title&gt;
+          &lt;/mat-expansion-panel-header&gt;
+          &lt;div class&#x3D;&quot;filters&quot;&gt;
+            &lt;div class&#x3D;&quot;multi-input&quot;&gt;
+              &lt;div style&#x3D;&quot;width: 30%; max-width: 180px&quot; class&#x3D;&quot;multi-input&quot;&gt;
+                &lt;mat-form-field style&#x3D;&quot;width: 100%;&quot;&gt;
+                  &lt;mat-label&gt;Regione&lt;/mat-label&gt;
+                  &lt;mat-select
+                    [(value)]&#x3D;&quot;location.Regione&quot;
+                    (selectionChange)&#x3D;&quot;updateLocation(&#x27;regione&#x27;, $event)&quot;
+                    matInput
+                  &gt;
+                  &lt;mat-option *ngFor&#x3D;&quot;let regione of regioni&quot; [value]&#x3D;&quot;regione&quot;&gt;{{regione || &#x27;Tutte le regioni&#x27;}}&lt;/mat-option&gt;
+                  &lt;/mat-select&gt;
+                  &lt;br&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+              &lt;div style&#x3D;&quot;width: 30%; max-width: 180px&quot; class&#x3D;&quot;multi-input&quot;&gt;
+                &lt;mat-form-field style&#x3D;&quot;width: 100%;&quot;&gt;
+                  &lt;mat-label&gt;Provincia&lt;/mat-label&gt;
+                  &lt;mat-select
+                    [(value)]&#x3D;&quot;location.Provincia&quot;
+                    matInput
+                    (selectionChange)&#x3D;&quot;updateLocation(&#x27;provincia&#x27;, $event)&quot;
+                  &gt;
+                  &lt;mat-option *ngFor&#x3D;&quot;let provincia of province&quot; [value]&#x3D;&quot;provincia&quot;&gt;{{provincia || &#x27;Tutte le province&#x27;}}&lt;/mat-option&gt;
+                  &lt;/mat-select&gt;
+                  &lt;br&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+              &lt;div style&#x3D;&quot;width: 30%; max-width: 180px&quot; class&#x3D;&quot;multi-input&quot;&gt;
+                &lt;mat-form-field style&#x3D;&quot;width: 100%;&quot;&gt;
+                  &lt;mat-label&gt;Comune&lt;/mat-label&gt;
+                  &lt;mat-select
+                    [(value)]&#x3D;&quot;location.Comune&quot;
+                    matInput
+                  &gt;
+                  &lt;mat-option *ngFor&#x3D;&quot;let comune of comuni&quot; [value]&#x3D;&quot;comune&quot; &gt;{{comune || &#x27;Tutti i comuni&#x27;}}&lt;/mat-option&gt;
+                  &lt;/mat-select&gt;
+                  &lt;br&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;mat-form-field&gt;
+                  &lt;mat-label&gt;Prezzo min&lt;/mat-label&gt;
+                  &lt;input matInput type&#x3D;&quot;number&quot; min&#x3D;&quot;0&quot; [max]&#x3D;&quot;priceOptions.max&quot; oninput&#x3D;&quot;validity.valid||(value&#x3D;&#x27;&#x27;);&quot; [(ngModel)]&#x3D;&quot;priceOptions.min&quot;&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;mat-form-field&gt;
+                  &lt;mat-label&gt;Prezzo max&lt;/mat-label&gt;
+                  &lt;input matInput type&#x3D;&quot;number&quot; [min]&#x3D;&quot;priceOptions.min || 0&quot; oninput&#x3D;&quot;validity.valid||(value&#x3D;&#x27;&#x27;);&quot; [(ngModel)]&#x3D;&quot;priceOptions.max&quot;&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;div class&#x3D;&quot;filters&quot;&gt;
+              &lt;div
+                *ngFor&#x3D;&quot;let filter of filterOptions&quot;
+                color&#x3D;&quot;primary&quot;
+                (click)&#x3D;&quot;filter.selected &#x3D; !filter.selected&quot;
+                &gt;
+                &lt;button *ngIf&#x3D;&quot;!filter.selected&quot; mat-button color&#x3D;&quot;primary&quot;&gt;{{filter.title | uppercase}}&lt;/button&gt;
+                &lt;button *ngIf&#x3D;&quot;filter.selected&quot; mat-raised-button color&#x3D;&quot;primary&quot;&gt;{{filter.title | uppercase}}&lt;/button&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/div&gt;
+        &lt;/mat-expansion-panel&gt;
+        &lt;div class&#x3D;&quot;auctions&quot;&gt;
+        &lt;div class&#x3D;&quot;cards&quot; *ngIf&#x3D;&quot;ready&quot;&gt;
+          &lt;mat-card *ngFor&#x3D;&quot;let auction of (auctions | search: searchCriteria())&quot; class&#x3D;&quot;auction-card&quot;&gt;
+            &lt;mat-card-header&gt;
+              &lt;div mat-card-avatar class&#x3D;&quot;book-image&quot;&gt;&lt;/div&gt;
+              &lt;mat-card-title&gt;{{auction.book[0].title }}&lt;/mat-card-title&gt;
+              &lt;mat-card-subtitle&gt;{{auction.book[0].course}} , {{auction.book[0].university}}&lt;/mat-card-subtitle&gt;
+              &lt;mat-card-subtitle&gt; {{(auction.clock &gt; 0) ? (auction.clock | clock) : &#x27;Conclusa&#x27; }}&lt;/mat-card-subtitle&gt;
+            &lt;/mat-card-header&gt;
+            &lt;mat-card-actions&gt;
+              &lt;button mat-button color&#x3D;&quot;primary&quot; (click)&#x3D;&quot;viewAuction(auction._id, auction.user)&quot;&gt;{{ &#x27;Visualizza inserzione&#x27;.toUpperCase() }}&lt;/button&gt;
+            &lt;/mat-card-actions&gt;
+          &lt;/mat-card&gt;
+        &lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./home.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.nested-content{
+  width: 100%;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.container {
+  align-items: start;
+}
+
+.nested-content h1 {
+  margin-top: 3vh;
+  margin-bottom: 3vh;
+}
+
+.auction-card {
+  margin-bottom: 16px;
+}
+
+.book-image {
+  background-image: url(&#x27;/assets/book.png&#x27;);
+  background-size: cover;
+}
+
+.mat-card {
+  min-width: min(80vw, 300px);
+  text-align: left !important;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  min-width: 80vw;
+}
+
+#search {
+  width: calc(100vw - 32px);
+}
+
+.filters {
+  display: flex;
+  justify-items: start;
+  padding-bottom: 8px;
+  flex-wrap: wrap;
+}
+
+.filters button, .filters .mat-form-field {
+  margin: 0 3px;
+}
+
+.filters .mat-form-field {
+  max-width: 90px;
+}
+
+.auctions {
+  margin-top: 16px;
+}
+
+@media screen and (max-width: 600px) {
+  .cards {
+    flex-direction: column  ;
+  }
+
+  .mat-card {
+    margin-right: 0;
+  }
+
+  .multi-input, .filters .mat-form-field {
+    width: 100% !important;
+    max-width: 100% !important;
+  }
+
+  .filters button {
+    margin: 6px
+  }
+
+  #search, .mat-expansion-panel {
+    width: calc(100vw - 32px);
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container">  <div class="nested-content">    <div>      <h1 class="section-title">Libri in vendita</h1>      <h2 class="section-subtitle">Tutte le aste in corso</h2>        <mat-form-field appearance="outline" id="search">          <mat-label>Ricerca</mat-label>          <input [disabled]="noFilter()" matInput placeholder="Algoritmi e strutture dati" [(ngModel)]="filter">        </mat-form-field>        <mat-expansion-panel hideToggle>          <mat-expansion-panel-header>            <mat-panel-title>              Filtri di ricerca            </mat-panel-title>          </mat-expansion-panel-header>          <div class="filters">            <div class="multi-input">              <div style="width: 30%; max-width: 180px" class="multi-input">                <mat-form-field style="width: 100%;">                  <mat-label>Regione</mat-label>                  <mat-select                    [(value)]="location.Regione"                    (selectionChange)="updateLocation(\'regione\', $event)"                    matInput                  >                  <mat-option *ngFor="let regione of regioni" [value]="regione">{{regione || \'Tutte le regioni\'}}</mat-option>                  </mat-select>                  <br>                </mat-form-field>              </div>              <div style="width: 30%; max-width: 180px" class="multi-input">                <mat-form-field style="width: 100%;">                  <mat-label>Provincia</mat-label>                  <mat-select                    [(value)]="location.Provincia"                    matInput                    (selectionChange)="updateLocation(\'provincia\', $event)"                  >                  <mat-option *ngFor="let provincia of province" [value]="provincia">{{provincia || \'Tutte le province\'}}</mat-option>                  </mat-select>                  <br>                </mat-form-field>              </div>              <div style="width: 30%; max-width: 180px" class="multi-input">                <mat-form-field style="width: 100%;">                  <mat-label>Comune</mat-label>                  <mat-select                    [(value)]="location.Comune"                    matInput                  >                  <mat-option *ngFor="let comune of comuni" [value]="comune" >{{comune || \'Tutti i comuni\'}}</mat-option>                  </mat-select>                  <br>                </mat-form-field>              </div>              <div>                <mat-form-field>                  <mat-label>Prezzo min</mat-label>                  <input matInput type="number" min="0" [max]="priceOptions.max" oninput="validity.valid||(value=\'\');" [(ngModel)]="priceOptions.min">                </mat-form-field>              </div>              <div>                <mat-form-field>                  <mat-label>Prezzo max</mat-label>                  <input matInput type="number" [min]="priceOptions.min || 0" oninput="validity.valid||(value=\'\');" [(ngModel)]="priceOptions.max">                </mat-form-field>              </div>            </div>          </div>          <div>            <div class="filters">              <div                *ngFor="let filter of filterOptions"                color="primary"                (click)="filter.selected = !filter.selected"                >                <button *ngIf="!filter.selected" mat-button color="primary">{{filter.title | uppercase}}</button>                <button *ngIf="filter.selected" mat-raised-button color="primary">{{filter.title | uppercase}}</button>              </div>            </div>          </div>        </mat-expansion-panel>        <div class="auctions">        <div class="cards" *ngIf="ready">          <mat-card *ngFor="let auction of (auctions | search: searchCriteria())" class="auction-card">            <mat-card-header>              <div mat-card-avatar class="book-image"></div>              <mat-card-title>{{auction.book[0].title }}</mat-card-title>              <mat-card-subtitle>{{auction.book[0].course}} , {{auction.book[0].university}}</mat-card-subtitle>              <mat-card-subtitle> {{(auction.clock > 0) ? (auction.clock | clock) : \'Conclusa\' }}</mat-card-subtitle>            </mat-card-header>            <mat-card-actions>              <button mat-button color="primary" (click)="viewAuction(auction._id, auction.user)">{{ \'Visualizza inserzione\'.toUpperCase() }}</button>            </mat-card-actions>          </mat-card>        </div>      </div>    </div>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuctionComponent', 'selector': 'app-auction'},{'name': 'AuctionModalComponent', 'selector': 'app-auction'},{'name': 'AuctionsComponent', 'selector': 'app-auctions'},{'name': 'ChatComponent', 'selector': 'app-chat'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'InfosnackComponent', 'selector': 'app-infosnack'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MessageComponent', 'selector': 'app-message'},{'name': 'ModeratorComponent', 'selector': 'app-moderator'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'ReservedComponent', 'selector': 'app-reserved'},{'name': 'ResetPasswordComponent', 'selector': 'app-reset-password'},{'name': 'StatsComponent', 'selector': 'app-stats'},{'name': 'UsersComponent', 'selector': 'app-users'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'HomeComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'HomeComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>

@@ -1,0 +1,2024 @@
+<!doctype html>
+<html class="no-js" lang="">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <title>frontend documentation</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <link rel="icon" type="image/x-icon" href="../images/favicon.ico">
+	      <link rel="stylesheet" href="../styles/style.css">
+    </head>
+    <body>
+
+        <div class="navbar navbar-default navbar-fixed-top visible-xs">
+            <a href="../" class="navbar-brand">frontend documentation</a>
+            <button type="button" class="btn btn-default btn-menu ion-ios-menu" id="btn-menu"></button>
+        </div>
+
+        <div class="xs-menu menu" id="mobile-menu">
+                <div id="book-search-input" role="search"><input type="text" placeholder="Type to search"></div>            <compodoc-menu></compodoc-menu>
+        </div>
+
+        <div class="container-fluid main">
+           <div class="row main">
+               <div class="hidden-xs menu">
+                   <compodoc-menu mode="normal"></compodoc-menu>
+               </div>
+               <!-- START CONTENT -->
+               <div class="content component">
+                   <div class="content-data">
+
+
+
+
+<ol class="breadcrumb">
+  <li>Components</li>
+  <li>AuctionComponent</li>
+</ol>
+
+<ul class="nav nav-tabs" role="tablist">
+        <li class="active">
+            <a href="#info" role="tab" id="info-tab" data-toggle="tab" data-link="info">Info</a>
+        </li>
+        <li >
+            <a href="#source" role="tab" id="source-tab" data-toggle="tab" data-link="source">Source</a>
+        </li>
+        <li >
+            <a href="#templateData" role="tab" id="templateData-tab" data-toggle="tab" data-link="template">Template</a>
+        </li>
+        <li >
+            <a href="#styleData" role="tab" id="styleData-tab" data-toggle="tab" data-link="style">Styles</a>
+        </li>
+        <li >
+            <a href="#tree" role="tab" id="tree-tab" data-toggle="tab" data-link="dom-tree">DOM Tree</a>
+        </li>
+</ul>
+
+<div class="tab-content">
+    <div class="tab-pane fade active in" id="c-info"><p class="comment">
+    <h3>File</h3>
+</p>
+<p class="comment">
+    <code>src/app/components/views/auction/auction.component.ts</code>
+</p>
+
+    <p class="comment">
+        <h3>Description</h3>
+    </p>
+    <p class="comment">
+        <p>Componente utilizzato per la visualizzazione
+in lettura o scrittura dei dettagli di un&#39;asta</p>
+
+    </p>
+
+
+    <p class="comment">
+        <h3>Implements</h3>
+    </p>
+    <p class="comment">
+                    <code><a href="https://angular.io/api/core/OnInit" target="_blank" >OnInit</a></code>
+    </p>
+
+
+<section>
+    <h3>Metadata</h3>
+    <table class="table table-sm table-hover">
+        <tbody>
+
+
+
+
+
+
+
+
+
+
+
+            <tr>
+                <td class="col-md-3">selector</td>
+                <td class="col-md-9"><code>app-auction</code></td>
+            </tr>
+
+            <tr>
+                <td class="col-md-3">styleUrls</td>
+                <td class="col-md-9"><code>./auction.component.css</code></td>
+            </tr>
+
+
+
+            <tr>
+                <td class="col-md-3">templateUrl</td>
+                <td class="col-md-9"><code>./auction.component.html</code></td>
+            </tr>
+
+
+
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="index">Index</h3>
+    <table class="table table-sm table-bordered index-table">
+        <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Properties</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#auction">auction</a>
+                            </li>
+                            <li>
+                                <a href="#auctionId">auctionId</a>
+                            </li>
+                            <li>
+                                <a href="#chats">chats</a>
+                            </li>
+                            <li>
+                                <a href="#edit">edit</a>
+                            </li>
+                            <li>
+                                <a href="#expireDate">expireDate</a>
+                            </li>
+                            <li>
+                                <a href="#fields">fields</a>
+                            </li>
+                            <li>
+                                <a href="#formValidators">formValidators</a>
+                            </li>
+                            <li>
+                                <a href="#isModerator">isModerator</a>
+                            </li>
+                            <li>
+                                <a href="#isTheLastWhoOffer">isTheLastWhoOffer</a>
+                            </li>
+                            <li>
+                                <a href="#logged">logged</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#owner">owner</a>
+                            </li>
+                            <li>
+                                <a href="#ready">ready</a>
+                            </li>
+                            <li>
+                                <a href="#updateAuctionFields">updateAuctionFields</a>
+                            </li>
+                            <li>
+                                <a href="#updateAuctionForm">updateAuctionForm</a>
+                            </li>
+                            <li>
+                                <a href="#userId">userId</a>
+                            </li>
+                            <li>
+                                <a href="#watcher">watcher</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                        <h6><b>Methods</b></h6>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="col-md-4">
+                        <ul class="index-list">
+                            <li>
+                                <a href="#checkError">checkError</a>
+                            </li>
+                            <li>
+                                <a href="#delete">delete</a>
+                            </li>
+                            <li>
+                                <a href="#getAuctionInfo">getAuctionInfo</a>
+                            </li>
+                            <li>
+                                <a href="#getChatConfig">getChatConfig</a>
+                            </li>
+                            <li>
+                                <a href="#go2Login">go2Login</a>
+                            </li>
+                            <li>
+                                <a href="#makeOffer">makeOffer</a>
+                            </li>
+                            <li>
+                                <a href="#ngOnInit">ngOnInit</a>
+                            </li>
+                            <li>
+                                <a href="#save">save</a>
+                            </li>
+                            <li>
+                                <a href="#start">start</a>
+                            </li>
+                            <li>
+                                <a href="#stop">stop</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#updateChats">updateChats</a>
+                            </li>
+                            <li>
+                                <a href="#updateClock">updateClock</a>
+                            </li>
+                            <li>
+                                    <span class="modifier">Private</span>
+                                <a href="#updateOffers">updateOffers</a>
+                            </li>
+                        </ul>
+                    </td>
+                </tr>
+
+
+
+
+
+        </tbody>
+    </table>
+</section>
+
+    <section>
+    <h3 id="constructor">Constructor</h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+<code>constructor(route: <a href="https://angular.io/api/router/ActivatedRoute" target="_blank">ActivatedRoute</a>, auctionService: <a href="../injectables/AuctionService.html">AuctionService</a>, appState: <a href="../injectables/appStateService.html">appStateService</a>, socketService: <a href="../injectables/SocketioService.html">SocketioService</a>, router: <a href="https://angular.io/api/router/Router" target="_blank">Router</a>)</code>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/components/views/auction/auction.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+                <tr>
+                    <td class="col-md-4">
+                            <div>
+                                    <b>Parameters :</b>
+                                    <table class="params">
+                                        <thead>
+                                            <tr>
+                                                <td>Name</td>
+                                                    <td>Type</td>
+                                                <td>Optional</td>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                                <tr>
+                                                        <td>route</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/ActivatedRoute" target="_blank" >ActivatedRoute</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>auctionService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/AuctionService.html" target="_self" >AuctionService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>appState</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/appStateService.html" target="_self" >appStateService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>socketService</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="../injectables/SocketioService.html" target="_self" >SocketioService</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                                <tr>
+                                                        <td>router</td>
+                                                  
+                                                        <td>
+                                                                        <code><a href="https://angular.io/api/router/Router" target="_blank" >Router</a></code>
+                                                        </td>
+                                                  
+                                                    <td>
+                                                            No
+                                                    </td>
+                                                    
+                                                </tr>
+                                        </tbody>
+                                    </table>
+                            </div>
+                    </td>
+                </tr>
+            </tbody>
+        </table>
+</section>
+
+
+
+
+
+    <section>
+    
+    <h3 id="methods">
+        Methods
+    </h3>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="checkError"></a>
+                    <span class="name">
+                        <b>
+                            checkError
+                        </b>
+                        <a href="#checkError"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>checkError(fieldname)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="187"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:187</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>fieldname</td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="delete"></a>
+                    <span class="name">
+                        <b>
+                            delete
+                        </b>
+                        <a href="#delete"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>delete()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="110"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:110</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getAuctionInfo"></a>
+                    <span class="name">
+                        <b>
+                            getAuctionInfo
+                        </b>
+                        <a href="#getAuctionInfo"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getAuctionInfo()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="74"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:74</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="getChatConfig"></a>
+                    <span class="name">
+                        <b>
+                            getChatConfig
+                        </b>
+                        <a href="#getChatConfig"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>getChatConfig()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="157"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:157</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="go2Login"></a>
+                    <span class="name">
+                        <b>
+                            go2Login
+                        </b>
+                        <a href="#go2Login"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>go2Login()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="195"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:195</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="makeOffer"></a>
+                    <span class="name">
+                        <b>
+                            makeOffer
+                        </b>
+                        <a href="#makeOffer"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>makeOffer()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="144"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:144</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="ngOnInit"></a>
+                    <span class="name">
+                        <b>
+                            ngOnInit
+                        </b>
+                        <a href="#ngOnInit"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>ngOnInit()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="52"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:52</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="save"></a>
+                    <span class="name">
+                        <b>
+                            save
+                        </b>
+                        <a href="#save"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>save()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="98"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:98</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="start"></a>
+                    <span class="name">
+                        <b>
+                            start
+                        </b>
+                        <a href="#start"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>start()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="203"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:203</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="stop"></a>
+                    <span class="name">
+                        <b>
+                            stop
+                        </b>
+                        <a href="#stop"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>stop()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="199"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:199</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateChats"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            updateChats
+                        </b>
+                        <a href="#updateChats"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>updateChats(message: <a href="../interfaces/Message.html">Message</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="129"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:129</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>message</td>
+                                    <td>
+                                                <code><a href="../interfaces/Message.html" target="_self" >Message</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateClock"></a>
+                    <span class="name">
+                        <b>
+                            updateClock
+                        </b>
+                        <a href="#updateClock"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+<code>updateClock()</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="191"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:191</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+    <table class="table table-sm table-bordered">
+        <tbody>
+            <tr>
+                <td class="col-md-4">
+                    <a name="updateOffers"></a>
+                    <span class="name">
+                        <b>
+                            <span class="modifier">Private</span>
+                            updateOffers
+                        </b>
+                        <a href="#updateOffers"><span class="icon ion-ios-link"></span></a>
+                    </span>
+                </td>
+            </tr>
+            <tr>
+                <td class="col-md-4">
+                    <span class="modifier-icon icon ion-ios-reset"></span>
+                    <code>updateOffers(msg: <a href="../interfaces/AuctionOfferPayload.html">AuctionOfferPayload</a>)</code>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+                    <div class="io-line">Defined in <a href="" data-line="117"
+                            class="link-to-prism">src/app/components/views/auction/auction.component.ts:117</a></div>
+                </td>
+            </tr>
+
+
+            <tr>
+                <td class="col-md-4">
+
+                    <div class="io-description">
+                        <b>Parameters :</b>
+                        <table class="params">
+                            <thead>
+                                <tr>
+                                    <td>Name</td>
+                                    <td>Type</td>
+                                    <td>Optional</td>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>msg</td>
+                                    <td>
+                                                <code><a href="../interfaces/AuctionOfferPayload.html" target="_self" >AuctionOfferPayload</a></code>
+                                    </td>
+
+                                    <td>
+                                        No
+                                    </td>
+
+
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                    </div>
+                    <div class="io-description">
+                        <b>Returns : </b>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >void</a></code>
+
+                    </div>
+                    <div class="io-description">
+                        
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</section>
+    <section>
+    
+        <h3 id="inputs">
+            Properties
+        </h3>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="auction"></a>
+                        <span class="name">
+                            <b>
+                            auction</b>
+                            <a href="#auction"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="../interfaces/Auction.html" target="_self" >Auction</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="25" class="link-to-prism">src/app/components/views/auction/auction.component.ts:25</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="auctionId"></a>
+                        <span class="name">
+                            <b>
+                            auctionId</b>
+                            <a href="#auctionId"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="26" class="link-to-prism">src/app/components/views/auction/auction.component.ts:26</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="chats"></a>
+                        <span class="name">
+                            <b>
+                            chats</b>
+                            <a href="#chats"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>ChatConfiguration[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="35" class="link-to-prism">src/app/components/views/auction/auction.component.ts:35</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="edit"></a>
+                        <span class="name">
+                            <b>
+                            edit</b>
+                            <a href="#edit"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="30" class="link-to-prism">src/app/components/views/auction/auction.component.ts:30</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="expireDate"></a>
+                        <span class="name">
+                            <b>
+                            expireDate</b>
+                            <a href="#expireDate"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="33" class="link-to-prism">src/app/components/views/auction/auction.component.ts:33</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="fields"></a>
+                        <span class="name">
+                            <b>
+                            fields</b>
+                            <a href="#fields"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://www.typescriptlang.org/docs/handbook/basic-types.html" target="_blank" >any</a></code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>{}</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="36" class="link-to-prism">src/app/components/views/auction/auction.component.ts:36</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="formValidators"></a>
+                        <span class="name">
+                            <b>
+                            formValidators</b>
+                            <a href="#formValidators"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>null</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>null</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="39" class="link-to-prism">src/app/components/views/auction/auction.component.ts:39</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isModerator"></a>
+                        <span class="name">
+                            <b>
+                            isModerator</b>
+                            <a href="#isModerator"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="34" class="link-to-prism">src/app/components/views/auction/auction.component.ts:34</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="isTheLastWhoOffer"></a>
+                        <span class="name">
+                            <b>
+                            isTheLastWhoOffer</b>
+                            <a href="#isTheLastWhoOffer"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="29" class="link-to-prism">src/app/components/views/auction/auction.component.ts:29</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="logged"></a>
+                        <span class="name">
+                            <b>
+                            logged</b>
+                            <a href="#logged"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>true</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="28" class="link-to-prism">src/app/components/views/auction/auction.component.ts:28</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="owner"></a>
+                        <span class="name">
+                            <b>
+                                <span class="modifier">Private</span>
+                            owner</b>
+                            <a href="#owner"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/boolean" target="_blank" >boolean</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="41" class="link-to-prism">src/app/components/views/auction/auction.component.ts:41</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="ready"></a>
+                        <span class="name">
+                            <b>
+                            ready</b>
+                            <a href="#ready"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>false</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="31" class="link-to-prism">src/app/components/views/auction/auction.component.ts:31</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateAuctionFields"></a>
+                        <span class="name">
+                            <b>
+                            updateAuctionFields</b>
+                            <a href="#updateAuctionFields"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>    <code>[]</code>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Default value : </i><code>[&#x27;Titolo&#x27;, &#x27;Università&#x27;, &#x27;Autore&#x27;, &#x27;Corso&#x27;, &#x27;Offerta Utente&#x27;, &#x27;Data Offerta&#x27;, &#x27;Prezzo attuale&#x27;, &#x27;Prezzo di riserva&#x27;, &#x27;Scadenza&#x27;]</code>
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="38" class="link-to-prism">src/app/components/views/auction/auction.component.ts:38</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="updateAuctionForm"></a>
+                        <span class="name">
+                            <b>
+                            updateAuctionForm</b>
+                            <a href="#updateAuctionForm"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                    <tr>
+                        <td class="col-md-4">
+                            <i>Type : </i>        <code><a href="https://angular.io/api/forms/FormGroup" target="_blank" >FormGroup</a></code>
+
+                        </td>
+                    </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="37" class="link-to-prism">src/app/components/views/auction/auction.component.ts:37</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="userId"></a>
+                        <span class="name">
+                            <b>
+                            userId</b>
+                            <a href="#userId"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="27" class="link-to-prism">src/app/components/views/auction/auction.component.ts:27</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+        <table class="table table-sm table-bordered">
+            <tbody>
+                <tr>
+                    <td class="col-md-4">
+                        <a name="watcher"></a>
+                        <span class="name">
+                            <b>
+                            watcher</b>
+                            <a href="#watcher"><span class="icon ion-ios-link"></span></a>
+                        </span>
+                    </td>
+                </tr>
+                        <tr>
+                            <td class="col-md-4">
+                                    <div class="io-line">Defined in <a href="" data-line="32" class="link-to-prism">src/app/components/views/auction/auction.component.ts:32</a></div>
+                            </td>
+                        </tr>
+
+
+            </tbody>
+        </table>
+</section>
+
+</div>
+
+
+    <div class="tab-pane fade  tab-source-code" id="c-source">
+        <pre class="line-numbers compodoc-sourcecode"><code class="language-typescript">import { Component, OnInit } from &#x27;@angular/core&#x27;;
+import { Router, ActivatedRoute } from &#x27;@angular/router&#x27;;
+import { AuctionService } from &#x27;src/app/services/http/auction.service&#x27;;
+import { appStateService } from &#x27;src/app/services/state/appState.service&#x27;;
+import { Response } from &#x27;src/app/services/models/Response&#x27;
+import { Auction } from &#x27;src/app/services/models/Auction&#x27;
+import { ChatConfiguration } from &#x27;src/app/models/chat&#x27;;
+import { SocketioService } from &#x27;src/app/services/socket/socketio.service&#x27;;
+import { Message } from &#x27;src/app/services/models/Message&#x27;;
+import { AuctionOfferPayload } from &#x27;src/app/models/auctionOffer&#x27;;
+import fieldHelpers from &#x27;../../../helpers/form&#x27;
+import { FormGroup, FormControl, Validators } from &#x27;@angular/forms&#x27;;
+
+/**
+ * Componente utilizzato per la visualizzazione
+ * in lettura o scrittura dei dettagli di un&#x27;asta
+ */
+@Component({
+  selector: &#x27;app-auction&#x27;,
+  templateUrl: &#x27;./auction.component.html&#x27;,
+  styleUrls: [&#x27;./auction.component.css&#x27;]
+})
+export class AuctionComponent implements OnInit {
+
+  auction: Auction
+  auctionId
+  userId
+  logged &#x3D; true
+  isTheLastWhoOffer: boolean
+  edit &#x3D; false
+  ready &#x3D; false
+  watcher
+  expireDate
+  isModerator: boolean
+  chats: ChatConfiguration[] &#x3D; []
+  fields: any &#x3D; {}
+  updateAuctionForm: FormGroup
+  updateAuctionFields &#x3D; [&#x27;Titolo&#x27;, &#x27;Università&#x27;, &#x27;Autore&#x27;, &#x27;Corso&#x27;, &#x27;Offerta Utente&#x27;, &#x27;Data Offerta&#x27;, &#x27;Prezzo attuale&#x27;, &#x27;Prezzo di riserva&#x27;, &#x27;Scadenza&#x27;]
+  formValidators &#x3D; null
+
+  private owner: boolean
+
+  constructor(
+    private route: ActivatedRoute,
+    private auctionService: AuctionService,
+    private appState: appStateService,
+    private socketService: SocketioService,
+    private router: Router
+  ) {
+  }
+
+  ngOnInit() {
+    this.route.queryParams.subscribe((params) &#x3D;&gt; {
+      this.edit &#x3D; params.edit
+      this.fields[&#x27;offer&#x27;] &#x3D; fieldHelpers.generic.check()
+      if (this.edit) {
+        this.formValidators &#x3D; {}
+        this.updateAuctionFields.forEach(field &#x3D;&gt; {
+          this.fields[field] &#x3D; fieldHelpers.generic.check()
+        })
+        this.updateAuctionForm &#x3D; new FormGroup(this.fields)
+      }
+      this.auctionId &#x3D; params.auction
+      this.userId &#x3D; params.user
+      this.owner &#x3D; this.appState.state.user ? (this.appState.state.user._id &#x3D;&#x3D;&#x3D; this.userId) : false
+      this.isModerator &#x3D; (this.appState.state.user) ? this.appState.state.user.moderator : false
+      this.getAuctionInfo()
+      this.appState.state$.subscribe((state) &#x3D;&gt; {
+        this.logged &#x3D; state.logged
+      })
+    })
+  }
+
+  getAuctionInfo () {
+    this.auctionService.getOne(this.userId, this.auctionId, this.appState.state.token).subscribe((auction: Response&lt;Auction&gt;) &#x3D;&gt; {
+      this.auction &#x3D; auction.payload
+      if (this.edit) {
+        const offset &#x3D; (new Date()).getTimezoneOffset() * 60 * 1000
+        this.expireDate &#x3D; new Date(this.auction.expires - offset).toISOString().slice(0, 16)
+        this.auction.offers.forEach(offer &#x3D;&gt; {
+          offer.timestamp &#x3D; new Date(parseInt(offer.timestamp + &#x27;&#x27;, 10) ).toISOString().slice(0, 16)
+        })
+      }
+      this.updateClock()
+      this.watcher &#x3D; setInterval(() &#x3D;&gt; this.updateClock(), 1000)
+
+      this.getChatConfig()
+      if (this.appState.state.user) {
+        this.socketService.onNewPrivateMessage(this.updateChats.bind(this))
+        this.socketService.onNewOffer(this.updateOffers.bind(this))
+      }
+      this.isTheLastWhoOffer &#x3D; (this.appState.state.user &amp;&amp; this.auction.offers.length &gt; 0) ? this.appState.state.user.username &#x3D;&#x3D;&#x3D; this.auction.offers[0].username : false
+      this.ready &#x3D; true
+    }, (error) &#x3D;&gt; {
+    })
+  }
+
+  save () {
+    if (this.edit) {
+      let expiration &#x3D; new Date(this.expireDate)
+      this.auction.expires &#x3D; expiration.getTime()
+      this.auction.offers.forEach(offer &#x3D;&gt; {
+        offer.timestamp &#x3D; new Date(offer.timestamp).getTime()
+      })
+    }
+    this.auctionService.update(this.userId, this.auctionId, this.auction, this.appState.state.token)
+    .subscribe(res &#x3D;&gt; null)
+  }
+
+  delete () {
+    this.auctionService.deleteOne(this.userId, this.auctionId, this.appState.state.token)
+    .subscribe(res &#x3D;&gt; {
+      this.router.navigate([&#x27;/reserved&#x27;])
+    })
+  }
+
+  private updateOffers (msg: AuctionOfferPayload) {
+    this.auction.currentPrice &#x3D; msg.amount
+    this.auction.offers.unshift({
+      amount: msg.amount,
+      delta: msg.delta,
+      user: msg.offerentId,
+      username: msg.offerentUs,
+      timestamp: msg.timestamp
+    })
+    this.isTheLastWhoOffer &#x3D; (this.appState.state.user) ? this.appState.state.user.username &#x3D;&#x3D;&#x3D; this.auction.offers[0].username : false
+  }
+
+  private updateChats (message: Message) {
+    const chat &#x3D; this.chats.filter((chat) &#x3D;&gt; chat.scope &#x3D;&#x3D;&#x3D; &#x27;private&#x27;).find((chat) &#x3D;&gt; chat.receiverId &#x3D;&#x3D; message.senderId)
+    if (!chat &amp;&amp; this.owner &amp;&amp; message.senderId !&#x3D;&#x3D; this.appState.state.user._id) {
+      this.chats.push({
+        scope: &#x27;private&#x27;,
+        messages: [message],
+        auctionId: this.auctionId,
+        senderId: this.appState.state.user._id,
+        senderUs: this.appState.state.user.username,
+        receiverId: message.senderId,
+        receiverUs: message.senderUs
+      })
+    }
+  }
+
+  makeOffer () {
+    if (this.fields.offer.value &gt; this.auction.currentPrice) {
+      this.socketService.makeOffer({
+        offerentId: this.appState.state.user._id,
+        offerentUs: this.appState.state.user.username,
+        receiverId: this.userId,
+        auctionId: this.auctionId,
+        amount: this.fields.offer.value,
+        delta: this.fields.offer.value - this.auction.currentPrice
+      })
+    }
+  }
+
+  getChatConfig () {
+    if (this.appState.state.user) {
+      if (!this.owner) {
+        this.auction.chats &#x3D; this.auction.chats.filter((chat) &#x3D;&gt; chat.scope &#x3D;&#x3D;&#x3D; &#x27;public&#x27; || (chat.scope &#x3D;&#x3D;&#x3D; &#x27;private&#x27; &amp;&amp; chat.partnerId &#x3D;&#x3D;&#x3D; this.appState.state.user._id))
+      }
+      for (let chat of this.auction.chats) {
+        this.chats.push({
+          scope: chat.scope,
+          messages: chat.messages,
+          auctionId: this.auctionId,
+          senderId: this.appState.state.user._id,
+          senderUs: this.appState.state.user.username,
+          receiverId: (chat.scope &#x3D;&#x3D;&#x3D; &#x27;private&#x27; ) ? (this.owner ? chat.partnerId : this.userId) : this.userId,
+          receiverUs: (chat.scope &#x3D;&#x3D;&#x3D; &#x27;private&#x27; ) ? (this.owner ? chat.partnerUs : &#x27;Inserzionista&#x27;) : null
+        })
+      }
+      if (this.chats.filter(chat &#x3D;&gt; chat.scope &#x3D;&#x3D;&#x3D; &#x27;private&#x27;).length &#x3D;&#x3D;&#x3D; 0 &amp;&amp; !this.owner) {
+        this.chats.push({
+          scope: &#x27;private&#x27;,
+          messages: [],
+          auctionId: this.auctionId,
+          senderId: this.appState.state.user._id,
+          senderUs: this.appState.state.user.username,
+          receiverId: this.userId,
+          receiverUs: &#x27;Inserzionista&#x27;
+        })
+      }
+    }
+  }
+
+  checkError (fieldname) {
+    return fieldHelpers.generic.validate(this.fields[fieldname], fieldname)
+  }
+
+  updateClock () {
+    this.auction.clock &#x3D; this.auction.expires - Date.now()
+  }
+
+  go2Login () {
+    this.router.navigate([&#x27;/login&#x27;])
+  }
+
+  stop () {
+    clearInterval(this.watcher)
+  }
+
+  start () {
+    this.watcher &#x3D; setInterval(() &#x3D;&gt; this.updateClock(), 1000)
+  }
+
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-templateData">
+        <pre class="line-numbers"><code class="language-html">&lt;div class&#x3D;&quot;container&quot;&gt;
+  &lt;div class&#x3D;&quot;nested-content&quot; *ngIf&#x3D;&quot;ready&quot;&gt;
+    &lt;mat-card *ngIf&#x3D;&quot;auction&quot; id&#x3D;&quot;auction&quot;&gt;
+      &lt;div id&#x3D;&quot;auction-header&quot;&gt;
+
+          &lt;div&gt;
+            &lt;mat-card-title&gt;{{edit ? &#x27;Modifica inserizione&#x27; : auction.book[0].title}}&lt;/mat-card-title&gt;
+            &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Titolo del libro&lt;/mat-label&gt;
+              &lt;input
+                required
+                matInput
+                placeholder&#x3D;&quot;Ex. Pizza&quot;
+                [formControl]&#x3D;&quot;fields[&#x27;Titolo&#x27;]&quot;
+                [(ngModel)]&#x3D;&quot;auction.book[0].title&quot;&gt;
+                &lt;mat-error &gt;{{checkError(&#x27;Titolo&#x27;)}}&lt;/mat-error&gt;
+            &lt;/mat-form-field&gt;
+            &lt;br&gt;
+            &lt;mat-card-subtitle *ngIf&#x3D;&quot;!edit&quot;&gt;&lt;b&gt;Università: &lt;/b&gt;{{auction.book[0].university}}&lt;/mat-card-subtitle&gt;
+            &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Università&lt;/mat-label&gt;
+              &lt;input
+                required
+                matInput
+                [formControl]&#x3D;&quot;fields[&#x27;Università&#x27;]&quot;
+                placeholder&#x3D;&quot;Ex. Pizza&quot;
+                [(ngModel)]&#x3D;&quot;auction.book[0].university&quot;&gt;
+                &lt;mat-error &gt;{{checkError(&#x27;Università&#x27;)}}&lt;/mat-error&gt;
+            &lt;/mat-form-field&gt;
+            &lt;br *ngIf&#x3D;&quot;edit&quot;&gt;
+            &lt;mat-card-subtitle *ngIf&#x3D;&quot;!edit&quot;&gt;&lt;b&gt;Autore: &lt;/b&gt; {{auction.book[0].author}}&lt;/mat-card-subtitle&gt;
+            &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Autore&lt;/mat-label&gt;
+              &lt;input
+                required
+                matInput
+                placeholder&#x3D;&quot;Ex. Pizza&quot;
+                [formControl]&#x3D;&quot;fields[&#x27;Autore&#x27;]&quot;
+                [(ngModel)]&#x3D;&quot;auction.book[0].author&quot;&gt;
+                &lt;mat-error &gt;{{checkError(&#x27;Autore&#x27;)}}&lt;/mat-error&gt;
+            &lt;/mat-form-field&gt;
+            &lt;br *ngIf&#x3D;&quot;edit&quot;&gt;
+            &lt;mat-card-subtitle *ngIf&#x3D;&quot;!edit&quot;&gt;&lt;b&gt;Corso: &lt;/b&gt;{{auction.book[0].course}}&lt;/mat-card-subtitle&gt;
+            &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Corso&lt;/mat-label&gt;
+              &lt;input
+                required
+                matInput
+                placeholder&#x3D;&quot;Ex. Pizza&quot;
+                [formControl]&#x3D;&quot;fields[&#x27;Corso&#x27;]&quot;
+                [(ngModel)]&#x3D;&quot;auction.book[0].course&quot;&gt;
+                &lt;mat-error &gt;{{checkError(&#x27;Corso&#x27;)}}&lt;/mat-error&gt;
+            &lt;/mat-form-field&gt;
+          &lt;/div&gt;
+          &lt;div&gt;
+            &lt;p *ngIf&#x3D;&quot;!edit &amp;&amp; auction.clock &gt; 0&quot;&gt;Scade tra:&lt;/p&gt;
+            &lt;p id&#x3D;&quot;clock&quot; *ngIf&#x3D;&quot;!edit&quot;&gt;{{auction.clock &gt; 0 ? (auction.clock | clock) : &#x27;Conclusa&#x27;}}&lt;/p&gt;
+            &lt;mat-form-field class&#x3D;&quot;full-width&quot; *ngIf&#x3D;&quot;edit&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Scade il&lt;/mat-label&gt;
+              &lt;input
+                matInput
+                type&#x3D;&quot;datetime-local&quot;
+                [ngModel]&#x3D;&quot;expireDate&quot;
+                (focus)&#x3D;&quot;stop()&quot;
+                (focusout)&#x3D;&quot;start()&quot;
+                [formControl]&#x3D;&quot;fields[&#x27;Scadenza&#x27;]&quot;
+                (input)&#x3D;&quot;expireDate &#x3D; $event.target.value&quot;&gt;
+                &lt;mat-error &gt;{{checkError(&#x27;Scadenza&#x27;)}}&lt;/mat-error&gt;
+              &lt;/mat-form-field&gt;
+          &lt;/div&gt;
+
+      &lt;/div&gt;
+      &lt;br&gt;
+      &lt;mat-card-content&gt;
+        &lt;h3 *ngIf&#x3D;&quot;auction.offers.length &gt; 0&quot; &gt;Offerte:&lt;/h3&gt;
+        &lt;mat-list id&#x3D;&quot;offers&quot; *ngIf&#x3D;&quot;auction.offers.length &gt; 0&quot;&gt;
+          &lt;mat-list-item *ngFor&#x3D;&quot;let offer of auction.offers.reverse()&quot; [ngClass]&#x3D;&quot;{&#x27;edit-form&#x27;: edit }&quot;&gt;
+            &lt;div [ngClass]&#x3D;&quot;{&#x27;offer-block&#x27;: !this.edit}&quot;&gt;
+              &lt;div&gt;
+                &lt;p *ngIf&#x3D;&quot;!edit&quot;&gt;{{offer.username}}&lt;/p&gt;
+                &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+                  &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Utente:&lt;/mat-label&gt;
+                  &lt;input
+                    [formControl]&#x3D;&quot;fields[&#x27;Offerta Utente&#x27;]&quot;
+                    matInput
+                    [(ngModel)]&#x3D;&quot;offer.username&quot;&gt;
+                    &lt;mat-error &gt;{{checkError(&#x27;Offerta Utente&#x27;)}}&lt;/mat-error&gt;
+                &lt;/mat-form-field&gt;
+                &lt;p *ngIf&#x3D;&quot;!edit&quot; class&#x3D;&quot;sub&quot;&gt;{{offer.timestamp | date}}&lt;/p&gt;
+                &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+                  &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Data&lt;/mat-label&gt;
+                  &lt;input
+                    [formControl]&#x3D;&quot;fields[&#x27;Data Offerta&#x27;]&quot;
+                    matInput
+                    type&#x3D;&quot;datetime-local&quot;
+                    [ngModel]&#x3D;&quot;offer.timestamp&quot;
+                    (input)&#x3D;&quot;offer.timestamp &#x3D; $event.target.value&quot;&gt;
+                    &lt;mat-error &gt;{{checkError(&#x27;Data Offerta&#x27;)}}&lt;/mat-error&gt;
+                  &lt;/mat-form-field&gt;
+                &lt;mat-form-field  *ngIf&#x3D;&quot;edit&quot;&gt;
+                  &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Offerta&lt;/mat-label&gt;
+                  &lt;input
+                    matInput
+                    type&#x3D;&quot;number&quot;
+                    min&#x3D;&quot;0&quot;
+                    [(ngModel)]&#x3D;&quot;offer.amount&quot;&gt;
+                &lt;/mat-form-field&gt;
+              &lt;/div&gt;
+              &lt;div&gt;
+                &lt;p *ngIf&#x3D;&quot;!edit&quot; class&#x3D;&quot;offer&quot;&gt;+ {{offer.delta}}&lt;/p&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/mat-list-item&gt;
+        &lt;/mat-list&gt;
+        &lt;h3 *ngIf&#x3D;&quot;!edit&quot;&gt;{{ (auction.clock &gt; 0) ? &#x27;Prezzo attuale: &#x27; : &#x27;Venduta a: &#x27;}}&lt;span class&#x3D;&quot;offer&quot;&gt;{{auction.currentPrice}}€&lt;/span&gt;&lt;/h3&gt;
+        &lt;div *ngIf&#x3D;&quot;edit&quot;&gt;
+            &lt;mat-form-field class&#x3D;&quot;reduced&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;{{(auction.clock &gt; 0) ? &#x27;Prezzo attuale: &#x27; : &#x27;Venduta a: &#x27;}}&lt;/mat-label&gt;
+              &lt;input
+                matInput
+                min&#x3D;&quot;0&quot;
+                type&#x3D;&quot;number&quot;
+                [(ngModel)]&#x3D;&quot;auction.currentPrice&quot;&gt;
+            &lt;/mat-form-field&gt;
+            &lt;mat-form-field *ngIf&#x3D;&quot;edit&quot; class&#x3D;&quot;reduced&quot;&gt;
+              &lt;mat-label *ngIf&#x3D;&quot;edit&quot;&gt;Prezzo di riserva&lt;/mat-label&gt;
+              &lt;input
+                matInput
+                min&#x3D;&quot;0&quot;
+                type&#x3D;&quot;number&quot;
+                [(ngModel)]&#x3D;&quot;auction.threshold&quot;&gt;
+            &lt;/mat-form-field&gt;
+        &lt;/div&gt;
+      &lt;/mat-card-content&gt;
+      &lt;mat-dialog-actions id&#x3D;&quot;custom-actions&quot;&gt;
+        &lt;h3 *ngIf&#x3D;&quot;!edit &amp;&amp; auction.clock &gt; 0 &amp;&amp; !isTheLastWhoOffer&quot;&gt;{{(logged) ? &quot;Fai un&#x27;offerta&quot; : &quot;Per poter fare un&#x27;offerta devi essere loggato&quot; }}&lt;/h3&gt;
+        &lt;form *ngIf&#x3D;&quot;logged &amp;&amp; !edit &amp;&amp; auction.clock &gt; 0 &amp;&amp; !isTheLastWhoOffer&quot;&gt;
+          &lt;mat-form-field&gt;
+            &lt;mat-label&gt;Importo&lt;/mat-label&gt;
+            &lt;input
+              type&#x3D;&quot;number&quot;
+              matInput
+              [placeholder]&#x3D;&quot;auction.currentPrice + 1&quot;
+              name&#x3D;&quot;offer&quot;
+              [formControl]&#x3D;&quot;(logged) ? fields.offer : null&quot;
+              &gt;
+              &lt;mat-error &gt;{{checkError(&#x27;offer&#x27;)}}&lt;/mat-error&gt;
+          &lt;/mat-form-field&gt;
+        &lt;/form&gt;
+        &lt;p *ngIf&#x3D;&quot;!edit &amp;&amp; isTheLastWhoOffer&quot;&gt;L&#x27;ultima offerta è la tua&lt;/p&gt;
+        &lt;button mat-raised-button color&#x3D;&quot;primary&quot; (click)&#x3D;&quot;save()&quot; *ngIf&#x3D;&quot;edit&quot; id&#x3D;&quot;savebtn&quot; &gt;Salva&lt;/button&gt;
+        &lt;button mat-raised-button color&#x3D;&quot;error&quot; (click)&#x3D;&quot;delete()&quot; *ngIf&#x3D;&quot;edit&quot;&gt;Elimina&lt;/button&gt;
+        &lt;button mat-raised-button color&#x3D;&quot;primary&quot; (click)&#x3D;&quot;makeOffer()&quot;  *ngIf&#x3D;&quot;!edit &amp;&amp; auction.clock &gt; 0 &amp;&amp; logged&quot; [disabled]&#x3D;&quot;!fields.offer.valid || fields.offer.value &lt; auction.currentPrice || isTheLastWhoOffer&quot;&gt;Offri&lt;/button&gt;
+        &lt;button *ngIf&#x3D;&quot;!logged&quot; mat-raised-button (click)&#x3D;&quot;go2Login()&quot;&gt;Accedi&lt;/button&gt;
+      &lt;/mat-dialog-actions&gt;
+
+    &lt;/mat-card&gt;
+    &lt;mat-card id&#x3D;&quot;chat&quot; *ngIf&#x3D;&quot;ready &amp;&amp; !edit&quot;&gt;
+      &lt;mat-card-title&gt;Chat&lt;/mat-card-title&gt;
+      &lt;mat-card-content&gt;
+        &lt;div id&#x3D;&quot;logged-error&quot; *ngIf&#x3D;&quot;!logged&quot;&gt;
+          &lt;div class&#x3D;&quot;reduced-text&quot;&gt;
+            &lt;h3&gt;Per poter accedere alle chat devi essere loggato&lt;/h3&gt;
+          &lt;/div&gt;
+          &lt;button mat-raised-button (click)&#x3D;&quot;go2Login()&quot;&gt;Accedi&lt;/button&gt;
+        &lt;/div&gt;
+        &lt;mat-tab-group id&#x3D;&quot;vertical-tabs&quot; *ngIf&#x3D;&quot;logged&quot;&gt;
+          &lt;mat-tab *ngFor&#x3D;&quot;let chat of chats&quot; [label]&#x3D;&quot;chat.receiverUs ? chat.receiverUs : &#x27;Pubblica&#x27; &quot;&gt;
+            &lt;app-chat [configuration] &#x3D; &quot;chat&quot;&gt;&lt;/app-chat&gt;
+          &lt;/mat-tab&gt;
+        &lt;/mat-tab-group&gt;
+      &lt;/mat-card-content&gt;
+    &lt;/mat-card&gt;
+  &lt;/div&gt;
+&lt;/div&gt;
+
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-styleData">
+                <p class="comment">
+                    <code>./auction.component.css</code>
+                </p>
+                <pre class="line-numbers"><code class="language-scss">.offer {
+  color: green;
+  font-weight: 500;
+}
+
+#chat, #auction  {
+  min-width: 35vw;
+  min-height: 75vh;
+}
+
+#savebtn {
+  margin-right: 16px;
+}
+
+#auction {
+  text-align: left !important;
+}
+
+.nested-content {
+  justify-content: space-around;
+}
+
+.sub {
+  padding-top: 0;
+  margin-top: -15px;
+  font-size: 10px;
+}
+
+.offer-block {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 250px;
+}
+
+#offers {
+  overflow-y: scroll;
+  max-height: 40vh;
+}
+
+#logged-error {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.reduced-text {
+  max-width: 250px;
+}
+
+#auction-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#clock {
+  font-size: 24px;
+}
+
+.mat-form-field {
+  min-width: 250px;
+}
+
+.mat-form-field.reduced {
+  min-width: 80px;
+  width: 80px;
+  padding-right: 16px;
+}
+
+.mat-list-base .mat-list-item:nth-child(odd) {
+  background-color: #FAFAFA;
+}
+.mat-list-base .mat-list-item {
+  padding: 12px 0;
+}
+
+.mat-card-content&gt;:last-child:not(.mat-card-footer) {
+  padding-top: 16px;
+}
+
+
+
+@media screen and (min-width: 600px) {
+
+  #custom-actions {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .mat-tab-group {
+    flex-direction: row !important;
+  }
+  #chat #vertical-tabs .mat-tab-labels {
+    display: flex;
+    flex-direction: column !important;
+  }
+}
+
+@media screen and (max-width: 599px) {
+  #auction {
+    margin-bottom: 16px;
+  }
+  #clock {
+    font-size: 16px;
+  }
+
+  #offers {
+    max-height: 25vh;
+  }
+
+  h3 {
+    text-align: left;
+  }
+
+  #auction-header {
+    flex-direction: column;
+  }
+
+  #auction-header .mat-form-field {
+    width: 100%;
+  }
+
+  .edit-form {
+    min-height: 180px;
+  }
+
+  #custom-actions {
+    position: relative;
+    bottom: 0;
+  }
+}
+</code></pre>
+    </div>
+
+    <div class="tab-pane fade " id="c-tree">
+        <div id="tree-container"></div>
+        <div class="tree-legend">
+            <div class="title">
+                <b>Legend</b>
+            </div>
+            <div>
+                <div class="color htmlelement"></div><span>Html element</span>
+            </div>
+            <div>
+                <div class="color component"></div><span>Component</span>
+            </div>
+            <div>
+                <div class="color directive"></div><span>Html element with directive</span>
+            </div>
+        </div>
+    </div>
+
+    
+</div>
+
+<script src="../js/libs/vis.min.js"></script>
+<script src="../js/libs/htmlparser.js"></script>
+<script src="../js/libs/deep-iterator.js"></script>
+<script>
+        var COMPONENT_TEMPLATE = '<div><div class="container">  <div class="nested-content" *ngIf="ready">    <mat-card *ngIf="auction" id="auction">      <div id="auction-header">          <div>            <mat-card-title>{{edit ? \'Modifica inserizione\' : auction.book[0].title}}</mat-card-title>            <mat-form-field  *ngIf="edit">              <mat-label *ngIf="edit">Titolo del libro</mat-label>              <input                required                matInput                placeholder="Ex. Pizza"                [formControl]="fields[\'Titolo\']"                [(ngModel)]="auction.book[0].title">                <mat-error >{{checkError(\'Titolo\')}}</mat-error>            </mat-form-field>            <br>            <mat-card-subtitle *ngIf="!edit"><b>Università: </b>{{auction.book[0].university}}</mat-card-subtitle>            <mat-form-field  *ngIf="edit">              <mat-label *ngIf="edit">Università</mat-label>              <input                required                matInput                [formControl]="fields[\'Università\']"                placeholder="Ex. Pizza"                [(ngModel)]="auction.book[0].university">                <mat-error >{{checkError(\'Università\')}}</mat-error>            </mat-form-field>            <br *ngIf="edit">            <mat-card-subtitle *ngIf="!edit"><b>Autore: </b> {{auction.book[0].author}}</mat-card-subtitle>            <mat-form-field  *ngIf="edit">              <mat-label *ngIf="edit">Autore</mat-label>              <input                required                matInput                placeholder="Ex. Pizza"                [formControl]="fields[\'Autore\']"                [(ngModel)]="auction.book[0].author">                <mat-error >{{checkError(\'Autore\')}}</mat-error>            </mat-form-field>            <br *ngIf="edit">            <mat-card-subtitle *ngIf="!edit"><b>Corso: </b>{{auction.book[0].course}}</mat-card-subtitle>            <mat-form-field  *ngIf="edit">              <mat-label *ngIf="edit">Corso</mat-label>              <input                required                matInput                placeholder="Ex. Pizza"                [formControl]="fields[\'Corso\']"                [(ngModel)]="auction.book[0].course">                <mat-error >{{checkError(\'Corso\')}}</mat-error>            </mat-form-field>          </div>          <div>            <p *ngIf="!edit && auction.clock > 0">Scade tra:</p>            <p id="clock" *ngIf="!edit">{{auction.clock > 0 ? (auction.clock | clock) : \'Conclusa\'}}</p>            <mat-form-field class="full-width" *ngIf="edit">              <mat-label *ngIf="edit">Scade il</mat-label>              <input                matInput                type="datetime-local"                [ngModel]="expireDate"                (focus)="stop()"                (focusout)="start()"                [formControl]="fields[\'Scadenza\']"                (input)="expireDate = $event.target.value">                <mat-error >{{checkError(\'Scadenza\')}}</mat-error>              </mat-form-field>          </div>      </div>      <br>      <mat-card-content>        <h3 *ngIf="auction.offers.length > 0" >Offerte:</h3>        <mat-list id="offers" *ngIf="auction.offers.length > 0">          <mat-list-item *ngFor="let offer of auction.offers.reverse()" [ngClass]="{\'edit-form\': edit }">            <div [ngClass]="{\'offer-block\': !this.edit}">              <div>                <p *ngIf="!edit">{{offer.username}}</p>                <mat-form-field  *ngIf="edit">                  <mat-label *ngIf="edit">Utente:</mat-label>                  <input                    [formControl]="fields[\'Offerta Utente\']"                    matInput                    [(ngModel)]="offer.username">                    <mat-error >{{checkError(\'Offerta Utente\')}}</mat-error>                </mat-form-field>                <p *ngIf="!edit" class="sub">{{offer.timestamp | date}}</p>                <mat-form-field  *ngIf="edit">                  <mat-label *ngIf="edit">Data</mat-label>                  <input                    [formControl]="fields[\'Data Offerta\']"                    matInput                    type="datetime-local"                    [ngModel]="offer.timestamp"                    (input)="offer.timestamp = $event.target.value">                    <mat-error >{{checkError(\'Data Offerta\')}}</mat-error>                  </mat-form-field>                <mat-form-field  *ngIf="edit">                  <mat-label *ngIf="edit">Offerta</mat-label>                  <input                    matInput                    type="number"                    min="0"                    [(ngModel)]="offer.amount">                </mat-form-field>              </div>              <div>                <p *ngIf="!edit" class="offer">+ {{offer.delta}}</p>              </div>            </div>          </mat-list-item>        </mat-list>        <h3 *ngIf="!edit">{{ (auction.clock > 0) ? \'Prezzo attuale: \' : \'Venduta a: \'}}<span class="offer">{{auction.currentPrice}}€</span></h3>        <div *ngIf="edit">            <mat-form-field class="reduced">              <mat-label *ngIf="edit">{{(auction.clock > 0) ? \'Prezzo attuale: \' : \'Venduta a: \'}}</mat-label>              <input                matInput                min="0"                type="number"                [(ngModel)]="auction.currentPrice">            </mat-form-field>            <mat-form-field *ngIf="edit" class="reduced">              <mat-label *ngIf="edit">Prezzo di riserva</mat-label>              <input                matInput                min="0"                type="number"                [(ngModel)]="auction.threshold">            </mat-form-field>        </div>      </mat-card-content>      <mat-dialog-actions id="custom-actions">        <h3 *ngIf="!edit && auction.clock > 0 && !isTheLastWhoOffer">{{(logged) ? "Fai un\'offerta" : "Per poter fare un\'offerta devi essere loggato" }}</h3>        <form *ngIf="logged && !edit && auction.clock > 0 && !isTheLastWhoOffer">          <mat-form-field>            <mat-label>Importo</mat-label>            <input              type="number"              matInput              [placeholder]="auction.currentPrice + 1"              name="offer"              [formControl]="(logged) ? fields.offer : null"              >              <mat-error >{{checkError(\'offer\')}}</mat-error>          </mat-form-field>        </form>        <p *ngIf="!edit && isTheLastWhoOffer">L\'ultima offerta è la tua</p>        <button mat-raised-button color="primary" (click)="save()" *ngIf="edit" id="savebtn" >Salva</button>        <button mat-raised-button color="error" (click)="delete()" *ngIf="edit">Elimina</button>        <button mat-raised-button color="primary" (click)="makeOffer()"  *ngIf="!edit && auction.clock > 0 && logged" [disabled]="!fields.offer.valid || fields.offer.value < auction.currentPrice || isTheLastWhoOffer">Offri</button>        <button *ngIf="!logged" mat-raised-button (click)="go2Login()">Accedi</button>      </mat-dialog-actions>    </mat-card>    <mat-card id="chat" *ngIf="ready && !edit">      <mat-card-title>Chat</mat-card-title>      <mat-card-content>        <div id="logged-error" *ngIf="!logged">          <div class="reduced-text">            <h3>Per poter accedere alle chat devi essere loggato</h3>          </div>          <button mat-raised-button (click)="go2Login()">Accedi</button>        </div>        <mat-tab-group id="vertical-tabs" *ngIf="logged">          <mat-tab *ngFor="let chat of chats" [label]="chat.receiverUs ? chat.receiverUs : \'Pubblica\' ">            <app-chat [configuration] = "chat"></app-chat>          </mat-tab>        </mat-tab-group>      </mat-card-content>    </mat-card>  </div></div></div>'
+    var COMPONENTS = [{'name': 'AppComponent', 'selector': 'app-root'},{'name': 'AuctionComponent', 'selector': 'app-auction'},{'name': 'AuctionModalComponent', 'selector': 'app-auction'},{'name': 'AuctionsComponent', 'selector': 'app-auctions'},{'name': 'ChatComponent', 'selector': 'app-chat'},{'name': 'FooterComponent', 'selector': 'app-footer'},{'name': 'ForgotPasswordComponent', 'selector': 'app-forgot-password'},{'name': 'HomeComponent', 'selector': 'app-home'},{'name': 'InfosnackComponent', 'selector': 'app-infosnack'},{'name': 'LoginComponent', 'selector': 'app-login'},{'name': 'MessageComponent', 'selector': 'app-message'},{'name': 'ModeratorComponent', 'selector': 'app-moderator'},{'name': 'NavbarComponent', 'selector': 'app-navbar'},{'name': 'PageNotFoundComponent', 'selector': 'app-page-not-found'},{'name': 'ReservedComponent', 'selector': 'app-reserved'},{'name': 'ResetPasswordComponent', 'selector': 'app-reset-password'},{'name': 'StatsComponent', 'selector': 'app-stats'},{'name': 'UsersComponent', 'selector': 'app-users'}];
+    var DIRECTIVES = [];
+    var ACTUAL_COMPONENT = {'name': 'AuctionComponent'};
+</script>
+<script src="../js/tree.js"></script>
+
+
+
+
+
+
+
+
+
+
+                   
+
+
+
+
+                   </div><div class="search-results">
+    <div class="has-results">
+        <h1 class="search-results-title"><span class='search-results-count'></span> result-matching "<span class='search-query'></span>"</h1>
+        <ul class="search-results-list"></ul>
+    </div>
+    <div class="no-results">
+        <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+    </div>
+</div>
+</div>
+               <!-- END CONTENT -->
+           </div>
+       </div>
+
+       <script>
+            var COMPODOC_CURRENT_PAGE_DEPTH = 1;
+            var COMPODOC_CURRENT_PAGE_CONTEXT = 'component';
+            var COMPODOC_CURRENT_PAGE_URL = 'AuctionComponent.html';
+            var MAX_SEARCH_RESULTS = 15;
+       </script>
+
+       <script src="../js/libs/custom-elements.min.js"></script>
+       <script src="../js/libs/lit-html.js"></script>
+       <!-- Required to polyfill modern browsers as code is ES5 for IE... -->
+       <script src="../js/libs/custom-elements-es5-adapter.js" charset="utf-8" defer></script>
+       <script src="../js/menu-wc.js" defer></script>
+
+       <script src="../js/libs/bootstrap-native.js"></script>
+
+       <script src="../js/libs/es6-shim.min.js"></script>
+       <script src="../js/libs/EventDispatcher.js"></script>
+       <script src="../js/libs/promise.min.js"></script>
+       <script src="../js/libs/zepto.min.js"></script>
+
+       <script src="../js/compodoc.js"></script>
+
+       <script src="../js/tabs.js"></script>
+       <script src="../js/menu.js"></script>
+       <script src="../js/libs/clipboard.min.js"></script>
+       <script src="../js/libs/prism.js"></script>
+       <script src="../js/sourceCode.js"></script>
+          <script src="../js/search/search.js"></script>
+          <script src="../js/search/lunr.min.js"></script>
+          <script src="../js/search/search-lunr.js"></script>
+          <script src="../js/search/search_index.js"></script>
+       <script src="../js/lazy-load-graphs.js"></script>
+
+
+    </body>
+</html>
